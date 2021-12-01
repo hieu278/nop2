@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+header{  
+    height: 61px;
+    background-color: black;
+    border-bottom: #d3ad7f solid 0.5px;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+    background-color: black;
+    background-image: url(logo.png);
+    background-size: cover;
+    position: center;
+    float: left;
+    margin-left: 148px;
+}
+.navbar{
+    float: left;
+    width: 691px;
+    height: 57px;
+    border: red solid 0px;
+    background-color: black;
+    text-align: center;
+    margin-left: 200px;
+}
+.navbar nav{
+    margin-top: 5px;
+    
+}
+.navbar > nav > .cha > li{
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.navbar >nav >.cha >li> a{
+    color: white;
+    margin-right: 15px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+.navbar >nav >.cha >li> a:hover{
+    color: #d3ad7f;
+    border:#d3ad7f solid 2px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 5px;
+}
+
+
+.con{
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    border: #d3ad7f solid 2px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px 5px #3d3939;
+}
+.con > li >a{
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: black;
+    border-bottom: black solid 1px;
+    border-bottom-right-radius: 6px;
+    
+}
+.navbar nav .cha li:hover .con{
+    display: block;   
+    min-width: 100px;
+    min-height: 50px;
+    background-color: burlywood;
+    
+}
+ .con li a:hover{
+    background-color: #d3ad7f;
+    color:black;
+    padding: 2px;
+    border: solid #d3ad7f 1px;
+    border-radius: 5px;
+}
+
+#body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    border: red solid 0px;
+    background-image: url(home-img.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nd{
+    color: aliceblue;   
+    width: 430px;
+    height: 390px;
+    border: rgb(74, 90, 102) solid 2px;
+    position: absolute;
+    margin-top: 151px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-left: 10px;
+}
